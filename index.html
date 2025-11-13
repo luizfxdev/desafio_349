@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ekko no Código do Tempo - Desafio da Ampulheta</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Vídeo de Background -->
+    <video autoplay muted loop id="background-video">
+      <source src="assets/background.mp4" type="video/mp4" />
+    </video>
+
+    <!-- Áudio de Tema -->
+    <audio id="theme-audio" loop>
+      <source src="assets/theme.mp3" type="audio/mpeg" />
+    </audio>
+
+    <!-- Controles de Áudio -->
+    <div class="audio-controls">
+      <button id="play-audio" class="audio-btn" title="Tocar música">🎵</button>
+      <button id="pause-audio" class="audio-btn" title="Pausar música">⏸️</button>
+    </div>
+
+    <!-- Container Principal -->
+    <div class="container">
+      <!-- Descrição do Desafio -->
+      <div class="challenge-header">
+        <h1>Ekko:O Código Reverso⏳</h1>
+        <h2>O Enigma da Ampulheta de Zhonya</h2>
+        <div class="challenge-description">
+          <p>
+            O tempo nunca esteve ao seu lado, mas no coração de Zaun, <strong>Ekko</strong> descobre uma mensagem oculta
+            capaz de alterar o destino de todos os desenvolvedores rebeldes.
+          </p>
+          <p>
+            Só decifrando este código será possível conquistar o lendário item defensivo: a
+            <strong>Ampulheta de Zhonya</strong>, artefato capaz de pausar até mesmo o mais cruel dos bugs.
+          </p>
+          <p class="mission">
+            🎯 <strong>Sua missão?</strong> A cada nova linha de código, manipular e inverter palavras para revelar a
+            mensagem original protegida por feitiços temporais do universo de Ekko!
+          </p>
+        </div>
+
+ 
+
+      <!-- Input de Entrada -->
+      <div class="input-section">
+        <label for="input-text">🔮 Mensagem Cifrada:</label>
+        <input
+          type="text"
+          id="input-text"
+          placeholder="dlihc doog a smees !sdrawkcab gniklat si ohw eno eht era uoY"
+          autocomplete="off"
+        />
+      </div>
+
+      <!-- Botões -->
+      <div class="buttons-section">
+        <button id="decipher-btn" class="action-btn" style="--clr: #39ff14">
+          <span>DECIFRAR</span>
+          <i></i>
+        </button>
+        <button id="return-btn" class="action-btn" style="--clr: #39ff14">
+          <span>RETORNAR</span>
+          <i></i>
+        </button>
+      </div>
+
+      <!-- Seção de Resultado -->
+      <div class="result-section" id="result-section">
+        <h3>⚡ Resultado da Decodificação Temporal</h3>
+        <div class="result-content" id="result-content">
+          <p class="placeholder-text">Aguardando a mensagem cifrada para iniciar a decodificação temporal...</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
