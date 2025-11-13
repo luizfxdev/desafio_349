@@ -36,14 +36,6 @@ O tempo nunca esteve ao seu lado, mas no coração de Zaun, **Ekko** descobre um
 
 ---
 
-## 🚀 Demonstração
-
-![Ekko Challenge Demo](https://img.shields.io/badge/Demo-Live-39FF14?style=for-the-badge)
-
-Acesse o desafio: [GitHub Pages](#) *(configure seu GitHub Pages para visualização)*
-
----
-
 ## 💻 Tecnologias Utilizadas
 
 - **HTML5** - Estruturação semântica
